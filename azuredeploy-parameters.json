@@ -1,0 +1,27 @@
+﻿{
+    "artifactsBaseUrl": {
+        "value": "https://raw.githubusercontent.com/mapr/azure/master"
+    },
+    "clusterName": {
+        "value": "sandbox"
+    },
+    "adminUsername": {
+        "value": "azadmin"
+    },
+    "adminPassword": {
+        "value": "MapRAzur3"
+    },
+    "location": {
+        "value": "West US"
+    },
+    "vmSize": {
+        "value": "Standard_D12"
+    },
+    "sshKey": {
+            "value": ""
+    },
+    "authenticationType": {
+            "value": "password"
+    }
+}
+
