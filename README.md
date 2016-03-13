@@ -20,10 +20,8 @@ The Control System interface to the cluster will be available at
 
 The system admin account will have login access, as well as the 
 MapR Software Admin account (user "mapr").   The password for the 
-mapr user is automatically set to "MapR-\<hostname\>" to provide
-limited access controls for the cluster (as the user deploying the
-template will be securely able to determine the hostname of the 
-sandbox node).   Users can log on to the host and change the hostname
+mapr user is automatically set to "MapR-\<hostname\>".
+Users can log on to the host and change the hostname
 of the mapr user after deployment should they desire.
 
 <h2>
