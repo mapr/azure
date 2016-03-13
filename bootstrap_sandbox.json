@@ -34,6 +34,7 @@
             "settings": {
                 "fileUris": [
                     "[concat(parameters('scriptsUri'), 'prepare-disks.sh')]",
+                    "[concat(parameters('scriptsUri'), 'deploy-mapr-ami.sh')]",
                     "[concat(parameters('scriptsUri'), 'instantiate-sandbox.sh')]"
                 ]
             },
