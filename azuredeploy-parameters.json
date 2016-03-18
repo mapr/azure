@@ -5,6 +5,9 @@
     "clusterName": {
         "value": "sandbox"
     },
+    "maprVersion": {
+        "value": "5.0.0"
+    },
     "adminUsername": {
         "value": "azadmin"
     },

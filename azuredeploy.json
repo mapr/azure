@@ -16,6 +16,14 @@
                  "description": "Unique name for deployed MapR sandbox.  Must be all lower case letters or numbers; no spaces or special characters."
             }
         },
+        "maprVersion": {
+            "type": "string",
+            "defaultValue" : "5.0.0",
+            "allowedValues": ["5.0.0"],
+            "metadata": {
+                "description": "MapR Software Version."
+            }
+        },
         "adminUsername": {
             "defaultValue": "azadmin",
             "type": "string",
