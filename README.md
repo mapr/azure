@@ -12,8 +12,7 @@ BETA RELEASE
 This advanced template deploys a single copy of the MapR VM Image
 for use in simple experimentation of the MapR Converged Data Platform.
 Users can select which instance types to use; storage for each node is 
-currently defined in the template itself (scaled to 2 1-TB volumes 
-per vcore for each instance type).
+currently defined in the template itself: 2 1-TB volumes.
 
 The Control System interface to the cluster will be available at
     https://[sandbox-node]:8443
