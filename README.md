@@ -19,8 +19,9 @@ The Control System interface to the cluster will be available at
 
 The system admin account will have login access, as well as the 
 MapR Software Admin account (user "mapr").   The password for the 
-mapr user is automatically set to "MapR-<hostname>" (though users 
-can log on to the host and change that should they desire).
+mapr user is automatically set to "MapR-\<hostname\>".
+Users can log on to the host and change the hostname
+of the mapr user after deployment should they desire.
 
 <h2>
 Command Line Usage
