@@ -6,8 +6,8 @@
       {
         "name": "clusterName",
         "type": "Microsoft.Common.TextBox",
-        "label": "MapR Cluster name",
-        "toolTip": "Unique identifier for the MapR cluster.",
+        "label": "MapR Sandbox name",
+        "toolTip": "Unique identifier for the MapR sandbox.",
         "constraints": {
           "required": true,
           "regex": "^[a-z0-9]{3,24}$",
@@ -18,11 +18,11 @@
         "name": "adminUsername",
         "type": "Microsoft.Compute.UserNameTextBox",
         "label": "SysAdmin Username",
-        "toolTip": "Admin username for the virtual machines. Same Credientials is to SSH to the box.",
+        "toolTip": "Identiy of privileged user within the virtual machines. ",
         "constraints": {
           "required": true,
           "regex": "^[A-z][A-z0-9]{4,15}$",
-          "validationMessage": "Admin username between 5 and 16 characters long, and can contain only letters and numbers."
+          "validationMessage": "Admin username must be between 5 and 16 characters long, and can contain only letters and numbers."
         },
         "osPlatform": "Linux"
       },
@@ -52,12 +52,12 @@
     "steps": [
       {
         "name": "MapRClusterConfig",
-        "label": "Cluster settings",
+        "label": "Sandbox settings",
         "subLabel": {
           "preValidation": "Configure the cluster",
           "postValidation": "Done"
         },
-        "bladeTitle": "Cluster cluster settings",
+        "bladeTitle": "Sandbox settings",
         "elements": [
           {
             "name": "clusterVmSize",
