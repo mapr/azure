@@ -82,7 +82,9 @@
                 "Standard_D13",
                 "Standard_D14"
               ]
-            }
+            },
+            "osPlatform": "Linux",
+            "count": "1"
           },
           {
             "name": "MapRVersion",
