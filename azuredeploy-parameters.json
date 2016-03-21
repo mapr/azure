@@ -18,7 +18,7 @@
         "value": "West US"
     },
     "vmSize": {
-        "value": "Standard_D12"
+        "value": "Standard_D4"
     },
     "sshKey": {
             "value": ""
