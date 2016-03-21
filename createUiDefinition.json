@@ -27,7 +27,7 @@
         "osPlatform": "Linux"
       },
       {
-        "name": "SSHCredntials",
+        "name": "SSHCredentials",
         "type": "Microsoft.Compute.CredentialsCombo",
         "label": {
                   "authenticationType": "Authentication type",
@@ -107,9 +107,9 @@
       "adminUsername": "[basics('adminUsername')]",
       "vmSize": "[steps('MapRClusterConfig').clusterVmSize]",
       "location": "[location()]",
-      "authenticationType":  "[basics('SSHCredntials').authenticationType]",
-      "adminPassword": "[basics('SSHCredntials').password]",
-      "sshKey": "[basics('SSHCredntials').sshPublicKey]",
+      "authenticationType":  "[basics('SSHCredentials').authenticationType]",
+      "adminPassword": "[basics('SSHCredentials').password]",
+      "sshKey": "[basics('SSHCredentials').sshPublicKey]",
       "maprVersion": "[steps('MapRClusterConfig').MapRVersion]"
     }
   }
